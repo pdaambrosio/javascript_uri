@@ -10,7 +10,7 @@ for (let nota of notas){
     let qtdNotas = parseInt(valor / nota);
     console.log(`${qtdNotas} nota(s) de R$ ${nota.toFixed(2)}`);
     valor = parseFloat(valor % nota);
-};
+}
 
 console.log('MOEDAS:');
 
@@ -18,4 +18,4 @@ for (let moeda of moedas) {
     let qtdMoedas = parseInt(valor / moeda + 0.00001);
     console.log(`${qtdMoedas} moeda(s) de R$ ${moeda.toFixed(2)}`);
     valor = valor % moeda;
-};
+}
