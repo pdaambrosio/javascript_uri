@@ -1,4 +1,3 @@
-const { match } = require('assert');
 const input =  require('fs').readFileSync('./stdin', 'utf8');
 
 let [A, B, C] = input.split(" ").map(item => parseFloat(item));

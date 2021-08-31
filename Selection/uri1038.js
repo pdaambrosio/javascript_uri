@@ -1,8 +1,6 @@
 const input = require('fs').readFileSync('./stdin', 'utf8');
 const [cod, qtd] = input.split(' ').map(num => parseInt(num));
 
-let vals = 0;
-
 if (cod === 1) {
     val = 4;
     total = qtd * val;
