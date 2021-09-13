@@ -2,7 +2,7 @@ const input = require('fs').readFileSync('./JavaScript-Uri/Selection/stdin', 'ut
 const salary = parseFloat(input);
 
 if (salary <= 2000) {
-    console.log('Isento')
+    console.log('Isento');
 } else if (salary <= 3000) {
     let taxes = (salary - 2000) * 0.08;
     console.log(`R$ ${taxes.toFixed(2)}`);
