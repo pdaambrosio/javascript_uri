@@ -1,4 +1,4 @@
-## Uri Online Judge - JavaScript
+## Uri Online Judge (beecrowd) - JavaScript
 
 ### Favorites
 
