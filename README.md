@@ -22,3 +22,4 @@
 * [Uri1151](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Repetition/uri1151.js)
 * [Uri1153](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Repetition/uri1153.js)
 * [Uri1154](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Repetition/uri1154.js)
+* [Uri1158](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Repetition/uri1158.js)
