@@ -28,3 +28,4 @@
 * [Uri1164](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Repetition/uri1164.js)
 * [Uri1165](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Repetition/uri1165.js)
 * [Uri1176](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Array/uri1176.js)
+* [Uri1179](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Array/uri1179.js)
