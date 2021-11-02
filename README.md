@@ -30,4 +30,4 @@
 * [Uri1176 - Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Array/uri1176.js)
 * [Uri1179 - Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Array/uri1179.js)
 * [Uri1180 - Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Array/uri1180.js)
-* [Uri1181 - Bidimensional Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Bidimensional_Array/uri1181.js)
+* [Uri1181 - Bidimensional Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Bidimensional%20Array/uri1181.js)
