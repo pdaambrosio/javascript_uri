@@ -3,7 +3,6 @@ const values = input.split('\n');
 const [line, character] = values.slice(0, 2).map(value => values.shift());
 
 let sum = 0;
-let average = 0;
 let count = 0;
 
 for (let xArray = 0; xArray < 12; xArray++) {
