@@ -16,5 +16,5 @@ for (let xArray = 0; xArray < 12; xArray++) {
     }
 }
 
-const result = character.toUpperCase() == 'S' ? sum.toFixed(1) : (sum / count).toFixed(1);
+const result = character.toUpperCase() === 'S' ? sum.toFixed(1) : (sum / count).toFixed(1);
 console.log(result);
