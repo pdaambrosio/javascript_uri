@@ -18,8 +18,6 @@ for (let line = 0; line < 11; line++) {
     for (let column = 11; column > nextColumn; column--) {
         sumLeft += matrixArray[line][column];
         countForAverage += 1;
-        console.log(`Line: ${line}`)
-        console.log(`Column: ${column}`)
     }
     if (line < 5) {
         nextColumn -= 1;
