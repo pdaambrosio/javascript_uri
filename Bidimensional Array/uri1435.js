@@ -45,9 +45,9 @@ while (true) {
         for (let column = 0; column < number; column++) {
             result += ` ${matrixArray[line][column]}`;
         }
-        console.log(...result)
+        console.log(...result);
     }
-    console.log()
+    console.log();
 }
 
 // Presentation error (15%)
