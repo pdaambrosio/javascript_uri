@@ -40,3 +40,4 @@
 * [Uri1478 - Bidimensional Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Bidimensional%20Array/uri1478.js)
 * [Uri1534 - Bidimensional Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Bidimensional%20Array/uri1534.js)
 * [Uri1541 - Repetition](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Repetition/uri1541.js)
+* [Uri1557 - Bidimensional Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Bidimensional%20Array/uri1557.js)
