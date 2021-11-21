@@ -1,7 +1,8 @@
 const input = require('fs').readFileSync('./JavaScript-Uri/Bidimensional Array/stdin', 'utf8');
 const values = input.split('\n').map(value => parseInt(value));
+const loop = 0;
 
-while (true) {
+while (loop != values) {
     let number = values.shift();
 
     if (number === 0) {
