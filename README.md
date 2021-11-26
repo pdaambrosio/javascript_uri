@@ -43,3 +43,4 @@
 * [Uri1557 - Bidimensional Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Bidimensional%20Array/uri1557.js)
 * [Uri1789 - Beginner](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Beginner/uri1789.js)
 * [Uri1827 - Bidimensional Array](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Bidimensional%20Array/uri1827.js)
+* [Uri1828 - Selection](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Selection/uri1828.js)
