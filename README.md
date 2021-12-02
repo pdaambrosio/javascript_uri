@@ -48,3 +48,4 @@
 * [Uri1847 - Ad-Hoc](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri1847.js)
 * [Uri1848 - Numeral Systems](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Numeral%20Systems/uri1848.js)
 * [Uri1858 - Beginner](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Beginner/uri1858.js)
+* [Uri1864 - Ad-Hoc](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri1864.js)
