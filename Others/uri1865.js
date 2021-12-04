@@ -6,7 +6,7 @@ const mjolnir = (challenging) => {
     for (let i = 0; i < challenging; i++) {
         const [name, force] = values.splice(0, 2);
 
-        if (name == 'Thor') {
+        if (name === 'Thor') {
             console.log('Y');
         } else {
             console.log('N');
