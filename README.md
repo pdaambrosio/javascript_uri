@@ -50,3 +50,4 @@
 * [Uri1858 - Beginner](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Beginner/uri1858.js)
 * [Uri1864 - Ad-Hoc](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri1864.js)
 * [Uri1914 - Beginner](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Beginner/uri1914.js)
+* [Uri1929 - Others](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Others/uri1929.js)
