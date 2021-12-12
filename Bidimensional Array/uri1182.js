@@ -1,6 +1,6 @@
 const input = require('fs').readFileSync('./JavaScript-Uri/Bidimensional Array/stdin', 'utf8');
 const values = input.split('\n');
-const [column, character] = values.slice(0, 2).map(value => values.shift());
+const [column, character] = values.splice(0, 2);
 
 const matrixArray = [];
 let sumColumn = 0;

@@ -3,7 +3,7 @@ const values = input.split(/\s+/).map(value => parseInt(value));
 const loop = values.shift();
 
 for (let i = 0; i < loop; i++) {
-    let [X, Y] = values.slice(0, 2).map(value => values.shift());
+    let [X, Y] = values.splice(0, 2);
     if (Y === 0) {
         console.log('divisao impossivel');
     } else {

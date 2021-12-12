@@ -3,7 +3,7 @@ const values = input.split(/\s+/).map(value => parseInt(value));
 
 let loop = 0;
 while (loop === 0) {
-    let [X, Y] = values.slice(0, 2).map(value => values.shift());
+    let [X, Y] = values.splice(0, 2);
     if (X > 0 && Y > 0) {
         console.log('primeiro');
     } else if (X < 0 && Y > 0) {

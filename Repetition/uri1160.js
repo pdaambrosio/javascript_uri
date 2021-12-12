@@ -3,7 +3,7 @@ const values = input.split(/\s+/).map(value => parseFloat(value));
 const loop = values.shift();
 
 for (let i = 0; i < loop; i++) {
-    let [PA, PB, G1, G2] = values.slice(0, 4).map(value => values.shift());
+    let [PA, PB, G1, G2] = values.splice(0, 4);
     let years = 0;
     while (PA <= PB) {
         years += 1;
