@@ -1,6 +1,6 @@
 const input = require('fs').readFileSync('./JavaScript-Uri/Bidimensional Array/stdin', 'utf8');
 const values = input.split('\n');
-const [line, character] = values.slice(0, 2).map(value => values.shift());
+const [line, character] = values.splice(0, 2);
 
 let sum = 0;
 let count = 0;
