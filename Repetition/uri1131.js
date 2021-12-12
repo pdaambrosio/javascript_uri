@@ -9,7 +9,7 @@ let victoriesGremio = 0;
 
 while (answerLoop !== 2) {
     countDeparture += 1;
-    [interGoals, gremioGoals] = values.slice(0, 2).map(value => values.shift());
+    [interGoals, gremioGoals] = values.splice(0, 2);
     if (interGoals > gremioGoals) {
         victoriesInter += 1;
     } else if (gremioGoals > interGoals) {
