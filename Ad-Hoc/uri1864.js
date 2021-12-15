@@ -1,4 +1,4 @@
-const input = require('fs').readFileSync('./JavaScript-Uri/Beginner/stdin', 'utf8');
+const input = require('fs').readFileSync('./JavaScript-Uri/Ad-Hoc/stdin', 'utf8');
 const N = parseInt(input.split('\n'));
 
 const ourDays = (number) => {
