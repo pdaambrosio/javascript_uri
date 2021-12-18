@@ -5,27 +5,27 @@ const value = lines.shift();
 const scientificNotation = (value) => {
     let num = Number(value).toExponential(4);
     let signal = value[0];
-    let seqs = num.split('e');
+    let [sequence1, sequence2] = num.split('e');
 
-    if (seqs[1].length < 3) {
-        seqs[1] = seqs[1].split('');
-        seqs[1][0] += '0';
+    if (sequence2.length < 3) {
+        sequence2 = sequence2.split('');
+        sequence2[0] += '0';
     }
 
-    let seq3 = '';
+    let sequence3 = '';
 
-    for (let seq of seqs[1]) {
-        seq3 += seq;
+    for (let n of sequence2) {
+        sequence3 += n;
     }
 
-    if (Number(seqs[0]) >= 0 && signal !== '-') {
-        console.log(`+${seqs[0]}E${seq3}`);
+    if (Number(sequence1) >= 0 && signal !== '-') {
+        console.log(`+${sequence1}E${sequence3}`);
     } 
-    else if (Number(seqs[0]) === 0 && signal === '-') {
-        console.log(`-${seqs[0]}E${seq3}`);
+    else if (Number(sequence1) === 0 && signal === '-') {
+        console.log(`-${sequence1}E${sequence3}`);
     }
     else {
-        console.log(`${seqs[0]}E${seq3}`);
+        console.log(`${sequence1}E${sequence3}`);
     }
 };
 
