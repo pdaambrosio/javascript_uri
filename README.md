@@ -59,3 +59,4 @@
 * [Uri1962 Ad-Hoc - A Long, Long Time Ago](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri1962.js)
 * [Uri1963 Ad-Hoc - The Motion Picture](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri1963.js)
 * [Uri1973 Simulation - Star Trek](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Simulation/uri1973.js)
+* [Uri1983 Selection - The Chosen](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Selection/uri1983.js)
