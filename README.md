@@ -62,3 +62,4 @@
 * [Uri1973 - Simulation - Star Trek](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Simulation/uri1973.js)
 * [Uri1983 - Selection - The Chosen](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Selection/uri1983.js)
 * [Uri1984 - Math - The Pronalância Puzzle](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Math/uri1984.js)
+* [Uri1985 - Math - MacPRONALTS](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Math/uri1985.js)
