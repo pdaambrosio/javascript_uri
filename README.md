@@ -64,3 +64,4 @@
 * [Uri1984 - Math - The Pronalância Puzzle](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Math/uri1984.js)
 * [Uri1985 - Math - MacPRONALTS](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Math/uri1985.js)
 * [Uri2003 - Beginner - Sunday Morning](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Beginner/uri2003.js)
+* [Uri2006 - Unknow - Identifying Tea](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Unknow/uri2006.js)
