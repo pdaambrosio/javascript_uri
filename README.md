@@ -66,3 +66,4 @@
 * [Uri2003 - Beginner - Sunday Morning](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Beginner/uri2003.js)
 * [Uri2006 - Unknow - Identifying Tea](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Unknow/uri2006.js)
 * [Uri2028 - Imaginary Universe - Sequence of Sequence](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Imaginary%20Universe/uri2028.js)
+* [Uri2057 - Selection - Time Zone](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Selection/uri2057.js)
