@@ -15,4 +15,4 @@ const mobileTimeZone = (departure, travelTime, timeZone) => {
     } return arrivalTime;
 };
 
-console.log(mobileTimeZone(S, T, F))
+console.log(mobileTimeZone(S, T, F));
