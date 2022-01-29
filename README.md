@@ -67,3 +67,4 @@
 * [Uri2006 - Unknow - Identifying Tea](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Unknow/uri2006.js)
 * [Uri2028 - Imaginary Universe - Sequence of Sequence](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Imaginary%20Universe/uri2028.js)
 * [Uri2057 - Selection - Time Zone](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Selection/uri2057.js)
+* [Uri2059 - Selection - Odd, Even or Cheating](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Selection/uri2059.js)
