@@ -26,7 +26,7 @@ const daysLeftUntilChristmas = (month, day) => {
 };
 
 
-while (values !== 0) {
+while (values.length !== 0) {
     const [M, D] = values.splice(0, 2);
     if (isNaN(M) || isNaN(D)) {
         break;
@@ -34,5 +34,3 @@ while (values !== 0) {
         console.log(daysLeftUntilChristmas(M, D));
     }
 }
-
-// console.log(daysLeftUntilChristmas(11, 24));
