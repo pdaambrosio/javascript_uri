@@ -70,3 +70,4 @@
 * [Uri2059 - Selection - Odd, Even or Cheating](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Selection/uri2059.js)
 * [Uri2126 - Subsequences Contiguous - Searching Subsequences](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Subsequences%20Contiguous/uri2126.js)
 * [Uri2139 - Ad-Hoc - Pedrinho's Christmas](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri2139.js)
+* [Uri2140 - Ad-Hoc - Two Bills](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri2140.js)
