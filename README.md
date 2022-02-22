@@ -71,3 +71,4 @@
 * [Uri2126 - Subsequences Contiguous - Searching Subsequences](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Subsequences%20Contiguous/uri2126.js)
 * [Uri2139 - Ad-Hoc - Pedrinho's Christmas](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri2139.js)
 * [Uri2140 - Ad-Hoc - Two Bills](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri2140.js)
+* [Uri2152 - Unknow - Pepe, I Already Took the Candle!](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Unknow/uri2152.py)
