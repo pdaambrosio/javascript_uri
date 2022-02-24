@@ -75,3 +75,4 @@
 * [Uri2146 - Unknow - Password](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Unknow/uri2146.js)
 * [Uri2152 - Unknow - Pepe, I Already Took the Candle!](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Unknow/uri2152.js)
 * [Uri2159 - Ad-Hoc - Approximate Number of Primes](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri2159.js)
+* [Uri2160 - Ad-Hoc - Name at Form](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri2160.js)
