@@ -13,8 +13,8 @@ const squareRootTen = (number) => {
         number -= 1;
     }
 
-    return `${(equation + 3).toFixed(10)}`
+    return `${(equation + 3).toFixed(10)}`;
 };
 
 
-console.log(squareRootTen(1));
+console.log(squareRootTen(N));
