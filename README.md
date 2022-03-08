@@ -79,3 +79,4 @@
 * [Uri2161 - Ad-Hoc - Square Root of 10](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri2161.js)
 * [Uri2162 - Ad-Hoc - Peaks and Valleys](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri2162.js)
 * [Uri2163 - Unknow - The Force Awakens](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Unknow/uri2163.js)
+* [Uri2164 - Ad-Hoc - Fast Fibonacci](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Ad-Hoc/uri2164.js)
