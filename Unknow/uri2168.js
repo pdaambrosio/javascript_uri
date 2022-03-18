@@ -21,7 +21,7 @@ const twilightAtPortland = (n, c) => {
             if ((matrixArray[line][column] + matrixArray[line][column + 1] + matrixArray[line + 1][column] + matrixArray[line + 1][column + 1]) < 2) {
                 results[line].push('U');
             } else {
-                results[line].push('S');;
+                results[line].push('S');
             }
         }
     }
