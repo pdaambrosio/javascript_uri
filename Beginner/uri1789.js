@@ -1,30 +1,32 @@
-const input = require('fs').readFileSync('./JavaScript-Uri/Beginner/stdin', 'utf8');
-const values = input.split(/\s+/).map(value => parseInt(value));
-const loop = 0;
+const input = require("fs").readFileSync(
+  "./javascript_uri/Beginner/stdin",
+  "utf8"
+);
+const values = input.split(/\s+/).map((value) => parseInt(value));
 
-while (loop != values) {
-    const numberSlugs = values.shift();
-    // const slugGroup = values.slice(0, numberSlugs).map(value => values.shift());
-    const slugGroup = [];
-
-    let fastSlug = 0;
-
-    for (let i = 0; i < numberSlugs; i++) {
-        slugGroup.push(values.shift());
-
-        if (slugGroup[i] > fastSlug) {
-            fastSlug = slugGroup[i]
-        }
+const raceOfSlugs = (speeds) => {
+  let fastSlug = 0;
+  for (let i = 0; i < speeds.length; i++) {
+    if (speeds[i] > fastSlug) {
+      fastSlug = speeds[i];
     }
+  }
+  return fastSlug;
+};
 
-    if (fastSlug < 10) {
-        console.log(1);
-    } else if (fastSlug >= 10 && fastSlug < 20) {
-        console.log(2);
-    } else {
-        console.log(3);
-    }
+while (values.length !== 0) {
+  const slugsGroup = values.shift();
+  const speedSlugs = values.splice(0, slugsGroup);
+
+  if (isNaN(slugsGroup)) {
+    break;
+  }
+
+  if (raceOfSlugs(speedSlugs) < 10) {
+    console.log(1);
+  } else if (raceOfSlugs(speedSlugs) < 20) {
+    console.log(2);
+  } else {
+    console.log(3);
+  }
 }
-
-// The was an error "Time limit exceeded"
-// Under analyzing
