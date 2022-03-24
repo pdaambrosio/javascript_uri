@@ -6,9 +6,9 @@ const values = input.split(/\s+/).map((value) => parseInt(value));
 
 const raceOfSlugs = (speeds) => {
   let fastSlug = 0;
-  for (let i = 0; i < speeds.length; i++) {
-    if (speeds[i] > fastSlug) {
-      fastSlug = speeds[i];
+  for (let speed of speeds) {
+    if (speed > fastSlug) {
+      fastSlug = speed;
     }
   }
   return fastSlug;
