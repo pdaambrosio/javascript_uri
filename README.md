@@ -84,3 +84,4 @@
 * [Uri2203 - Beginner - Crowstorm](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Beginner/uri2203.js)
 * [Uri2221 - Unknow - Pomekons Battle](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2221.js)
 * [Uri2310 - Array - Volleyball](https://github.com/pdaambrosio/javascript_uri/blob/main/Array/uri2310.js)
+* [Uri2311 - Repetition - Diving](https://github.com/pdaambrosio/javascript_uri/blob/main/Repetition/uri2311.js)
