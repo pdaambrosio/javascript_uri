@@ -2,7 +2,7 @@ const input = require("fs").readFileSync(
   "./javascript_uri/Selection/stdin",
   "utf8"
 );
-const [a, b, c] = input.split(" ").map(Number);
+const [numA, numB, numC] = input.split(" ").map(Number);
 
 function whichTriangle(a, b, c) {
   const higherNumber = Math.max(a, b, c);
@@ -33,8 +33,8 @@ function isRectangle(a, b, c) {
   return "Retangulo: N";
 }
 
-const triangle = whichTriangle(a, b, c);
-const rectangle = isRectangle(a, b, c);
+const triangle = whichTriangle(numA, numB, numC);
+const rectangle = isRectangle(numA, numB, numC);
 
 if (triangle === "Invalido") {
   console.log(triangle);
