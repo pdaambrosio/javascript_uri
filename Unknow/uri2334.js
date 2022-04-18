@@ -6,9 +6,10 @@ const values = input.split("\n").map(Number);
 
 const littleDucks = (ducks) => {
   if (ducks === 0) {
-    return 0;
+    return ducks;
   }
-  return String(BigInt(ducks) - BigInt(1));
+  ducks = String(BigInt(ducks) - BigInt(1));
+  return ducks;
 };
 
 while (values.length !== 0) {
