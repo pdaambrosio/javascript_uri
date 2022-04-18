@@ -86,3 +86,4 @@
 * [Uri2310 - Array - Volleyball](https://github.com/pdaambrosio/javascript_uri/blob/main/Array/uri2310.js)
 * [Uri2311 - Repetition - Diving](https://github.com/pdaambrosio/javascript_uri/blob/main/Repetition/uri2311.js)
 * [Uri2313 - Selection - Which Triangle](https://github.com/pdaambrosio/javascript_uri/blob/main/Selection/uri2313.js)
+* [Uri2334 - Unknow - Little Ducks](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2334.js)
