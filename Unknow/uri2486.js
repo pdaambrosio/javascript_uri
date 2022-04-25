@@ -37,11 +37,11 @@ while (values !== 0) {
   if (loop === 0) {
     break;
   }
-  // fix: Wrong answer (10%)
+
   for (let i = 0; i < loop; i++) {
-    const intake = values.shift();
-    const amount = parseInt(intake[0]);
-    const item = intake.substring(2);
+    const intake = values.shift().split(" ");
+    const amount = parseInt(intake.shift());
+    const item = intake.join(" ");
     result += calcVitamin(amount, item);
   }
   console.log(calcDailyIntake(result));
