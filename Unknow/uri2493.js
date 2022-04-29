@@ -3,7 +3,6 @@ const input = require("fs").readFileSync(
   "utf8"
 );
 const values = input.split("\n");
-const loop = parseInt(values.shift());
 
 const operationsGame = (loop) => {
   const listAnwser = [];
@@ -24,8 +23,38 @@ const operationsGame = (loop) => {
       listAnwser.push("I");
     }
   }
-  console.log(listAnwser);
+  return listAnwser;
 };
 
-operationsGame(loop);
+const playersGame = (loop, listAnwser) => {
+  const wrongAnwser = [];
+  for (let i = 0; i < loop; i++) {
+    const [name, question, answer] = values.shift().split(" ");
 
+    if (answer !== listAnwser[question - 1]) {
+      wrongAnwser.push(name);
+    }
+  }
+
+  if (wrongAnwser.length === 0) {
+    return "You Shall All Pass!";
+  }
+
+  if (wrongAnwser.length === loop) {
+    return `None Shall Pass!`;
+  }
+
+  wrongAnwser.sort();
+  return wrongAnwser.join(" ");
+};
+
+while (values.length > 0) {
+  const loop = parseInt(values.shift());
+
+  if (isNaN(loop)) {
+    break;
+  }
+
+  const listQuestionsAnwser = operationsGame(loop);
+  console.log(playersGame(loop, listQuestionsAnwser));
+}
