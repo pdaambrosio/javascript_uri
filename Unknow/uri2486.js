@@ -30,7 +30,7 @@ const calcDailyIntake = (vitaminIntake) => {
   return `${vitaminIntake} mg`;
 };
 
-while (values !== 0) {
+while (values.length > 0) {
   const loop = Number(values.shift());
   let result = 0;
 
