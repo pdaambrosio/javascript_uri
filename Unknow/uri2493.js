@@ -28,3 +28,4 @@ const operationsGame = (loop) => {
 };
 
 operationsGame(loop);
+
