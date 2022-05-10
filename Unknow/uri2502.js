@@ -3,11 +3,6 @@ const input = require("fs").readFileSync(
   "utf8"
 );
 const values = input.split("\n");
-const cn = values.shift().split(" ").map(Number);
-const keyOne = values.shift();
-const keyTwo = values.shift();
-
-console.log(cn);
 
 function desencryptCard(loop, keyOne, keyTwo) {
   const keyOneLower = keyOne.toLowerCase();
@@ -18,20 +13,29 @@ function desencryptCard(loop, keyOne, keyTwo) {
   for (let i = 0; i < loop; i++) {
     const textEncrypt = values.shift();
     for (let caracter of textEncrypt) {
-      if (caracter in keyOneLower) {
+      if (keyOneLower.includes(caracter)) {
         result += keyTwoLower[keyOneLower.indexOf(caracter)];
-      } else if (caracter in keyTwoLower) {
+      } else if (keyTwoLower.includes(caracter)) {
         result += keyOneLower[keyTwoLower.indexOf(caracter)];
-      } else if (caracter in keyOneUpper) {
+      } else if (keyOneUpper.includes(caracter)) {
         result += keyTwoUpper[keyOneUpper.indexOf(caracter)];
-      } else if (caracter in keyTwoUpper) {
+      } else if (keyTwoUpper.includes(caracter)) {
         result += keyOneUpper[keyTwoUpper.indexOf(caracter)];
       } else {
         result += caracter;
       }
     }
+    result += "\n";
   }
-  console.log(result);
+  return result;
 }
 
-desencryptCard(cn[1], keyOne, keyTwo);
+do {
+  const cn = values.shift().split(" ").map(Number);
+  const keyOne = String(values.shift());
+  const keyTwo = String(values.shift());
+  if (isNaN(cn[0]) || isNaN(cn[1])) {
+    break;
+  }
+  console.log(desencryptCard(cn[1], keyOne, keyTwo));
+} while (values.length > 0);
