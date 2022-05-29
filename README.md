@@ -92,3 +92,4 @@
 * [Uri2502 - Unknow - Deciphering the Encrypted Card](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2502.js)
 * [Uri2520 - Unknow - The Last Analógimôn](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2520.js)
 * [Uri2523 - Beginner - Will's Message](https://github.com/pdaambrosio/javascript_uri/blob/main/Beginner/uri2523.js)
+* [Uri2533 - Beginner - Internship](https://github.com/pdaambrosio/javascript_uri/blob/main/Beginner/uri2533.js)
