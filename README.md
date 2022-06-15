@@ -94,3 +94,4 @@
 * [Uri2523 - Beginner - Will's Message](https://github.com/pdaambrosio/javascript_uri/blob/main/Beginner/uri2523.js)
 * [Uri2533 - Beginner - Internship](https://github.com/pdaambrosio/javascript_uri/blob/main/Beginner/uri2533.js)
 * [Uri2534 - Sorting - General Exam](https://github.com/pdaambrosio/javascript_uri/blob/main/Sorting/uri2534.js)
+* [Uri2542 - Matrices - Iu-Di-Oh!](https://github.com/pdaambrosio/javascript_uri/blob/main/Matrices/uri2542.js)
