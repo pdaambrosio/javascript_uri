@@ -6,7 +6,7 @@ const values = input.split(/\s+/).map((value) => parseInt(value));
 
 const ufprGaming = (loop, studentId) => {
   let result = 0;
-  for (let i; i < loop; i++) {
+  for (let i = 0; i < loop; i++) {
     const gameplay = values.splice(0, 2);
     if (studentId === gameplay[0] && gameplay[1] === 0) {
       result += 1;
