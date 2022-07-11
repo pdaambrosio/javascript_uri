@@ -95,4 +95,4 @@
 * [Uri2533 - Beginner - Internship](https://github.com/pdaambrosio/javascript_uri/blob/main/Beginner/uri2533.js)
 * [Uri2534 - Sorting - General Exam](https://github.com/pdaambrosio/javascript_uri/blob/main/Sorting/uri2534.js)
 * [Uri2542 - Matrices - Iu-Di-Oh!](https://github.com/pdaambrosio/javascript_uri/blob/main/Matrices/uri2542.js)
-* [Uri2547 - Beginner - Roller Coaster](https://github.com/pdaambrosio/javascript_uri/blob/main/Matrices/uri2547.js)
+* [Uri2547 - Beginner - Roller Coaster](https://github.com/pdaambrosio/javascript_uri/blob/main/Beginner/uri2547.js)
