@@ -97,3 +97,4 @@
 * [Uri2542 - Matrices - Iu-Di-Oh!](https://github.com/pdaambrosio/javascript_uri/blob/main/Matrices/uri2542.js)
 * [Uri2547 - Beginner - Roller Coaster](https://github.com/pdaambrosio/javascript_uri/blob/main/Beginner/uri2547.js)
 * [Uri2551 - Beginner - New Record](https://github.com/pdaambrosio/javascript_uri/blob/main/Beginner/uri2551.js)
+* [Uri2552 - Matrices - CheeseBreadSweeper](https://github.com/pdaambrosio/javascript_uri/blob/main/Matrices/uri2552.js)
