@@ -3,20 +3,29 @@ const input = require("fs").readFileSync(
   "utf8"
 );
 const values = input.split(/\s+/);
-const [inputN, inputD] = values.splice(0, 2).map(Number);
 
 const pizzaBeforeBh = (columns, lines) => {
-  let result = null;
+  let result = "";
   for (let i = 0; i < lines; i++) {
     let [nDate, ...dPeoples] = values.splice(0, columns + 1);
     dPeoples = dPeoples.map((value) => parseInt(value));
 
-    if (dPeoples.every((value) => value === 1)) {
-      result = nDate;
+    if (result.length === 0) {
+      if (dPeoples.every((value) => value === 1)) {
+        result = nDate;
+      }
     }
-
-    return result ? result : "Pizza antes de FdI";
   }
+
+  return result ? result : "Pizza antes de FdI";
 };
 
-console.log(pizzaBeforeBh(inputN, inputD));
+while (values.length > 0) {
+  const [inputN, inputD] = values.splice(0, 2).map(Number);
+
+  if (isNaN(inputN) || isNaN(inputD)) {
+    break;
+  }
+
+  console.log(pizzaBeforeBh(inputN, inputD));
+}
