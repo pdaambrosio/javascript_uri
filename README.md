@@ -1,6 +1,12 @@
-## Uri Online Judge (beecrowd) - JavaScript
+# Uri Online Judge (beecrowd) - JavaScript
 
-### Favorites
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=pdaambrosio_javascript_uri&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=pdaambrosio_javascript_uri)
+[![Code Quality Status](https://sonarcloud.io/api/project_badges/measure?project=pdaambrosio_javascript_uri&metric=sqale_index)](https://sonarcloud.io/dashboard?id=pdaambrosio_javascript_uri)
+[![Security Status](https://sonarcloud.io/api/project_badges/measure?project=pdaambrosio_javascript_uri&metric=security_rating)](https://sonarcloud.io/dashboard?id=pdaambrosio_javascript_uri)
+[![Duplication Status](https://sonarcloud.io/api/project_badges/measure?project=pdaambrosio_javascript_uri&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=pdaambrosio_javascript_uri)
+[![CodeFactor](https://www.codefactor.io/repository/github/pdaambrosio/javascript_uri/badge)](https://www.codefactor.io/repository/github/pdaambrosio/javascript_uri)
+
+## Favorites
 
 * [Uri1012 - Sequential - Area](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Sequential/uri1012.js)
 * [Uri1013 - Sequential - The Greatest](https://github.com/pdaambrosio/JavaScript-Uri/blob/main/Sequential/uri1013.js)
