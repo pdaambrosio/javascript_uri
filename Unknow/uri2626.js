@@ -12,20 +12,15 @@ const rockPaperScissors = (player1, player2, player3) => {
   let result = "Putz vei, o Leo ta demorando muito pra jogar...";
 
   switch (player1) {
-    case "papel":
-      if (player2 === "pedra" && player3 === "pedra") {
-        result = dodo;
-        break;
-      }
-    case "pedra":
-      if (player2 === "tesoura" && player3 === "tesoura") {
-        result = dodo;
-        break;
-      }
-    case "tesoura":
-      if (player2 === "papel" && player3 === "papel") {
-        result = dodo;
-      }
+    case player2 === "pedra" && player3 === "pedra":
+      result = dodo;
+      break;
+    case player2 === "papel" && player3 === "papel":
+      result = dodo;
+      break;
+    case player2 === "tesoura" && player3 === "tesoura":
+      result = dodo;
+      break;
   }
   return result;
 };
