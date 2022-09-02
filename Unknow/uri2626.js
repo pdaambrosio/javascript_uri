@@ -3,7 +3,7 @@ const input = require("fs").readFileSync(
   "utf8"
 );
 
-let values = input.split(/\s+/);
+const values = input.split(/\s+/);
 
 const rockPaperScissors = (player1, player2, player3) => {
   const dodo = "Os atributos dos monstros vao ser inteligencia, sabedoria...";
@@ -70,5 +70,8 @@ const rockPaperScissors = (player1, player2, player3) => {
 
 while (values.length > 0) {
   const [inputP1, inputP2, inputP3] = values.splice(0, 3);
+  if (inputP1 === undefined || inputP2 === undefined || inputP3 === undefined) {
+    break;
+  }
   console.log(rockPaperScissors(inputP1, inputP2, inputP3));
 }
