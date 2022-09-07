@@ -9,10 +9,10 @@ function greyScale(conversion, r, g, b) {
   let result = 0;
   switch (conversion) {
     case "eye":
-      result = Math.round(0.3 * r + 0.59 * g + 0.11 * b);
+      result = parseInt(r * 0.3 + g * 0.59 + b * 0.11);
       break;
     case "mean":
-      result = Math.round((r + g + b) / 3);
+      result = parseInt((r + g + b) / 3);
       break;
     case "min":
       result = Math.min(r, g, b);
