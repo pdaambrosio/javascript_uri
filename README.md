@@ -107,3 +107,4 @@
 * [Uri2554 - Beginner - Pizza Before BH](https://github.com/pdaambrosio/javascript_uri/blob/main/Beginner/uri2554.js)
 * [Uri2626 - Unknow -  JB6 Team](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2626.js)
 * [Uri2630 - Unknow -  Greyscale](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2630.js)
+* [Uri2632 - Unknow -  Magic and Sword](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2632.js)
