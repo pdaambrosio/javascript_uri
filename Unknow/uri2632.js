@@ -3,7 +3,6 @@ const input = require("fs").readFileSync(
   "utf8"
 );
 const values = input.split(/\s+/);
-const loop = parseInt(values.shift());
 
 const magicAndSword = (
   widthW,
@@ -23,7 +22,7 @@ const magicAndSword = (
   };
 
   const spellType = spells[spell];
-  const spellDmg = spellType.dmg;
+  const spellDmg = spellType["dmg"];
   const spellNivel = spellType[`l${spellLevel}`];
   let zone = true;
 
@@ -37,8 +36,56 @@ const magicAndSword = (
     zone = false;
   }
 
-  console.log(spellType, spellDmg, spellNivel);
+  if (zone) {
+    const c1 = (coordinateY0 - coordinateCy) ** 2;
+    const c2 = (distanceY0h - coordinateCy) ** 2;
+    for (let i = coordinateX0; i <= distanceX0w + 1; i++) {
+      const d1 = Math.sqrt((i - coordinateCx) ** 2 + c1);
+      const d2 = Math.sqrt((i - coordinateCx) ** 2 + c2);
+      if (d1 <= spellNivel || d2 <= spellNivel) {
+        zone = false;
+        break;
+      }
+    }
+  }
 
+  if (zone) {
+    const c1 = (coordinateX0 - coordinateCx) ** 2;
+    const c2 = (distanceX0w - coordinateCx) ** 2;
+    for (let i = coordinateY0; i <= distanceY0h + 1; i++) {
+      const d1 = Math.sqrt(c1 + (i - coordinateCy) ** 2);
+      const d2 = Math.sqrt(c2 + (i - coordinateCy) ** 2);
+      if (d1 <= spellNivel || d2 <= spellNivel) {
+        zone = false;
+        break;
+      }
+    }
+  }
+
+  return zone ? 0 : spellDmg;
 };
 
-console.log(values);
+const loop = parseInt(values.shift());
+
+for (let i = 0; i < loop; i++) {
+  const [widthW, heightH, coordinateX0, coordinateY0] = values
+    .splice(0, 4)
+    .map((item) => parseInt(item));
+  const [spell, spellLevel] = values.splice(0, 2);
+  const [coordinateCx, coordinateCy] = values
+    .splice(0, 2)
+    .map((item) => parseInt(item));
+
+  const damage = magicAndSword(
+    widthW,
+    heightH,
+    coordinateX0,
+    coordinateY0,
+    spell,
+    spellLevel,
+    coordinateCx,
+    coordinateCy
+  );
+
+  console.log(damage);
+}
