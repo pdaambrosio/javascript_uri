@@ -29,12 +29,22 @@ const magicAndSword = (
   const distanceX0w = coordinateX0 + widthW;
   const distanceY0h = coordinateY0 + heightH;
 
-  if (
-    coordinateX0 <= coordinateCx <= distanceX0w &&
-    coordinateY0 <= coordinateCy <= distanceY0h
-  ) {
-    zone = false;
-  }
+  // if (
+  //   coordinateX0 <= coordinateCx <= distanceX0w &&
+  //   coordinateY0 <= coordinateCy <= distanceY0h
+  // ) {
+  //   zone = false;
+  // }
+
+  // console.log(zone);
+  // console.log(
+  //   coordinateX0 <= coordinateCx <= distanceX0w &&
+  //     coordinateY0 <= coordinateCy <= distanceY0h
+  // );
+  // console.log(coordinateCx <= distanceX0w);
+  // console.log(coordinateX0, coordinateCx, distanceX0w);
+  // console.log(coordinateY0, coordinateCy, distanceY0h);
+  // console.log();
 
   if (zone) {
     const c1 = (coordinateY0 - coordinateCy) ** 2;
@@ -42,7 +52,7 @@ const magicAndSword = (
     for (let i = coordinateX0; i <= distanceX0w + 1; i++) {
       const d1 = Math.sqrt((i - coordinateCx) ** 2 + c1);
       const d2 = Math.sqrt((i - coordinateCx) ** 2 + c2);
-      if (d1 <= spellNivel || d2 <= spellNivel) {
+      if (spellNivel >= d1 || spellNivel >= d2) {
         zone = false;
         break;
       }
@@ -55,7 +65,7 @@ const magicAndSword = (
     for (let i = coordinateY0; i <= distanceY0h + 1; i++) {
       const d1 = Math.sqrt(c1 + (i - coordinateCy) ** 2);
       const d2 = Math.sqrt(c2 + (i - coordinateCy) ** 2);
-      if (d1 <= spellNivel || d2 <= spellNivel) {
+      if (spellNivel >= d1 || spellNivel >= d2) {
         zone = false;
         break;
       }
