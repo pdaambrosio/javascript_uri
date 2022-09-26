@@ -29,12 +29,14 @@ const magicAndSword = (
   const distanceX0w = coordinateX0 + widthW;
   const distanceY0h = coordinateY0 + heightH;
 
-  // if (
-  //   coordinateX0 <= coordinateCx <= distanceX0w &&
-  //   coordinateY0 <= coordinateCy <= distanceY0h
-  // ) {
-  //   zone = false;
-  // }
+  if (
+    coordinateX0 <= coordinateCx &&
+    coordinateCx <= distanceX0w &&
+    coordinateY0 <= coordinateCy &&
+    coordinateCy <= distanceY0h
+  ) {
+    zone = false;
+  }
 
   // console.log(zone);
   // console.log(
