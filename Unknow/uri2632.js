@@ -30,10 +30,8 @@ const magicAndSword = (
   const distanceY0h = coordinateY0 + heightH;
 
   if (
-    coordinateX0 <= coordinateCx &&
-    coordinateCx <= distanceX0w &&
-    coordinateY0 <= coordinateCy &&
-    coordinateCy <= distanceY0h
+    coordinateX0 >= coordinateCx >= distanceX0w &&
+    coordinateY0 >= coordinateCy >= distanceY0h
   ) {
     zone = false;
   }
