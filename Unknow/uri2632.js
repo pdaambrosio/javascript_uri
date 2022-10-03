@@ -36,16 +36,6 @@ const magicAndSword = (
     zone = false;
   }
 
-  // console.log(zone);
-  // console.log(
-  //   coordinateX0 <= coordinateCx <= distanceX0w &&
-  //     coordinateY0 <= coordinateCy <= distanceY0h
-  // );
-  // console.log(coordinateCx <= distanceX0w);
-  // console.log(coordinateX0, coordinateCx, distanceX0w);
-  // console.log(coordinateY0, coordinateCy, distanceY0h);
-  // console.log();
-
   if (zone) {
     const c1 = (coordinateY0 - coordinateCy) ** 2;
     const c2 = (distanceY0h - coordinateCy) ** 2;
