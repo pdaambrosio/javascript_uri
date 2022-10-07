@@ -108,3 +108,4 @@
 * [Uri2626 - Unknow -  JB6 Team](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2626.js)
 * [Uri2630 - Unknow -  Greyscale](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2630.js)
 * [Uri2632 - Unknow -  Magic and Sword](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2632.js)
+* [Uri2635 - Unknow -  Web Browser](https://github.com/pdaambrosio/javascript_uri/blob/main/Unknow/uri2635.js)
