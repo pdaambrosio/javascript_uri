@@ -9,7 +9,7 @@ const listSearch = values.splice(0, loopSearch);
 const loopQueries = parseInt(values.shift());
 const listQueries = values.splice(0, loopQueries);
 
-const webSearch = (loopSearch, loopQueries, listSearch, listQueries) => {
+const webSearch = (listSearch, listQueries) => {
   const result = [];
   for (let querie of listQueries) {
     let countSearch = 0;
@@ -32,11 +32,6 @@ const webSearch = (loopSearch, loopQueries, listSearch, listQueries) => {
   return result;
 };
 
-for (let result of webSearch(
-  loopSearch,
-  loopQueries,
-  listSearch,
-  listQueries
-)) {
+for (let result of webSearch(listSearch, listQueries)) {
   console.log(result);
 }
